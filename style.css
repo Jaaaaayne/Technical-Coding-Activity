@@ -1,0 +1,480 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family:'arial';
+}
+H5{
+    color:white;
+    margin-left: 45%;
+}
+.container{
+    width:100%;
+    height: 312vh;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 5%;
+}
+.menu{
+    display: block;
+}
+.bt1{
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 7%;
+}
+nav{
+    margin-left: 20%;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+nav ul li a:hover{
+    color: rgb(53, 228, 161);
+}
+.row{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    margin-left: 5%;
+}
+.col1{
+    position: relative;
+}
+#l1,#l3,#l4{
+    font-size: 45px;
+    font-weight: 600;
+}
+#l2{
+    font-size: 45px;
+    font-weight: 600;
+    color:rgb(53, 228, 161); 
+}
+#l5{
+    color: white;
+    font-size: 15px;
+    font-weight: 10;
+}
+.col2{
+    position:absolute;
+    margin-left: 54%;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#bg1{
+    position: absolute;
+}
+#l6{
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 800;
+    top: 60px;
+    margin-left: 37%;
+}
+#l7{
+    color: black;
+    font-size: 13px;
+    font-weight: 50;
+    position: absolute;
+    top:100px;
+    margin-left: 30%;
+    text-align: center;
+}
+.col4{
+    position: absolute;
+    top:190px;
+    margin-left: 13%;
+}
+#t1 tr td a{
+    margin-left: 10px;
+}
+#bg2{
+    position: absolute;
+    width:100%;
+    margin-right: 10%;
+}
+.row3{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 325px 0;
+}
+.col5{
+    position: absolute;
+    top:50px;
+    width: 100%;
+}
+#l8{
+    font-size: 19px;
+    font-weight: 800;
+    margin-left: 30%;
+}
+#l9{
+    font-size: 13px;
+    font-weight:800;
+    margin-left: 33%;
+}
+.col6{
+    position: absolute;
+    top:120px;
+    margin-left: 13%;
+}
+#t2 tr td img{
+    margin-left: 10px;
+    width: 220px;
+    height: 130px;
+}
+#t3 tr td img{
+    margin-left: 9px;
+    top: 50px;
+    width: 690px;
+    height: 150px;
+}
+.row4{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 500px 0;
+}
+#bg3{
+    position: absolute;
+    width: 85%;
+    margin-left: 7%;
+    border-radius: 16px;
+}
+.col7{
+    position: absolute;
+    margin: 40px 0;
+    width: 100%;
+}
+#l10{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 12%;
+}
+#l11{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 12%;
+}
+#bt3{
+    position: absolute;
+    top: 40px;
+    margin-left: 70%;
+}
+.row5{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.col8{
+    position: absolute;
+    margin: -20% 33%;
+}
+#t4 tr td img{
+    margin-left: 30px;
+}
+.col9{
+    width: 100%;
+    position: absolute;
+    margin: -15% 31%;
+}
+#t5 tr td img{
+    margin-left: 15px;
+}
+#logo2{
+    position: absolute;
+    margin-left: 11%;
+}
+#AU{
+    color: white;
+    position: relative;
+    top: 100px;
+    margin-left: 14%;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+.col10{
+    width: 100%;
+    color: white;
+    position: relative;
+}
+#l12{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    top: 130px;
+    margin-left: -3%;
+}
+#line{
+    position: absolute;
+    top: 240px;
+    margin-left: -22%;
+    width: 800px;
+}
+#l13{
+    position: absolute;
+    font-size: 10px;
+    margin: 25.5% -21%;
+}
+#ul2{
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    margin-left: 28%;
+    top: 236px;
+}
+#ul2 li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 20px;
+}
+#ul2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        width:100%;
+        height: 215vh;
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+    }
+    nav ul{
+        width: 100%;
+        position: absolute;
+        top: 45px;
+        margin-left: -45%;
+    }
+    nav ul li{
+        list-style: none;
+        display:inline-block;
+        margin-right: 10px;
+    }
+    .logo{
+        display: block;
+    }
+    .col2{
+        display: none;
+    }
+    .bt1{
+        cursor: pointer;
+        margin-right: 7%;
+        margin-left: 24%;
+        width: 100px;
+    }
+    .row{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+        margin-left: 3%;
+    }
+    #l1,#l3,#l4{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #l2{
+        font-size: 25px;
+        font-weight: 600;
+        color:rgb(53, 228, 161); 
+    }
+    #l5{
+        color: white;
+        font-size: 10px;
+        font-weight: 10;
+        margin: 10px 0;
+    }
+    #l6{
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-weight: 800;
+        top: 20px;
+        margin-left: 33%;
+    }
+    #l7{
+        color: black;
+        font-size: 11px;
+        font-weight: 50;
+        position: absolute;
+        top:60px;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .col4{
+        position: absolute;
+        top:150px;
+        margin-left: -2%;
+    }
+    #bg1{
+        position: absolute;
+        height: 300px;
+        margin: -10% 0;
+    }
+    #t1 tr td img{
+        width: 33px;
+        height:33px;
+    }
+    #bg2{
+        position: absolute;
+        width:100%;
+        margin-right: 10%;
+        height: 350px;
+        margin: -10% 0;
+    }
+    .row3{
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin: 300px 0;
+    }
+    .col5{
+        position: absolute;
+        top:10px;
+        width: 100%;
+    }
+    .col6{
+        position: absolute;
+        top:60px;
+        margin-left: 13%;
+    }
+    #l8{
+        font-size: 15px;
+        font-weight: 800;
+        margin-left: 7%;
+    }
+    #l9{
+        font-size: 10px;
+        font-weight:800;
+        margin-left: 13%;
+    }
+    #t2 tr td img{
+        margin-left: -16%;
+        width: 100px;
+        height: 70px;
+    }
+    #t3 tr td img{
+        margin-left: -6%;
+        top: 50px;
+        width: 310px;
+        height: 70px;
+    }
+    .row4{
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin: 100px 0;
+    }
+    .col7{
+        position: absolute;
+        margin: -9% 0;
+        width: 100%;
+    }
+    #l10{
+        font-size: 15px;
+        font-weight: 800;
+        margin-left: 19%;
+    }
+    #l11{
+        font-size: 9px;
+        font-weight: 100;
+        margin-left: 3%;
+        text-align: center;
+    }
+    #bg3{
+        position: absolute;
+        width: 85%;
+        margin-left: 7%;
+        border-radius: 16px;
+        height: 165px;
+        top:-60px;
+    }
+    .col8{
+        position: absolute;
+        margin: 10% 17%;
+    }
+    #t4 tr td img{
+        margin-left: 10px;
+    }
+    .col9{
+        width: 100%;
+        position: absolute;
+        margin: 20% 6%;
+    }
+    #t5 tr td img{
+        margin-left: 1px;
+    }
+    #bt3{
+        position: absolute;
+        top: 80px;
+        margin-left: 32%;
+    }
+    #logo2{
+        position: absolute;
+        margin-left: 23%;
+    }
+    #AU{
+        color: white;
+        position: relative;
+        top: 90px;
+        margin-left: 32%;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        list-style: none;
+    }
+    #l12{
+        position: absolute;
+        text-align: center;
+        font-size: 12px;
+        top: 100px;
+        margin-left: 3%;
+    }
+    #line{
+        position: absolute;
+        top: 170px;
+        margin-left: -22%;
+        width: 800px;
+    }
+    #l13{
+        display: none;
+    }
+    #ul2{
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        margin-left: -5%;
+        top: 175px;
+    }
+}
